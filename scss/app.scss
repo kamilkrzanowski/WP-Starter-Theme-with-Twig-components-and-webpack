@@ -1,0 +1,17 @@
+@import './base/functions';
+@import './base/reset';
+@import './base/normalize';
+
+@import './library/settings';
+@import './library/mixins';
+@import "./library/wordpressTheme";
+@import './base/global';
+
+/* _ui components scss files */
+@import "../components/_ui/container/styles";
+@import "../components/_ui/typography/styles";
+
+/* components scss files */
+@import "../components/footer/styles";
+@import "../components/header/styles";
+@import "../components/news/styles";

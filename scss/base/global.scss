@@ -1,0 +1,8 @@
+#wpadminbar {
+  opacity: 0.2;
+  transition: opacity 0.2s linear;
+
+  &:hover {
+    opacity: 1;
+  }
+}

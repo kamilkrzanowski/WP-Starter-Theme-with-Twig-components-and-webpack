@@ -1,0 +1,46 @@
+.t-paragraph {
+  color: $black;
+  font: 400 16px/1.2 $base-font;
+
+  &--color {
+    color: $primary-color;
+  }
+
+  &--white {
+    color: $white;
+  }
+
+  &--center {
+    text-align: center;
+  }
+  
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--upper {
+    text-transform: uppercase;
+  }
+}
+
+.t-heading {
+  color: $black;
+  font: 400 24px/1.2 $heading-font;
+  font-weight: 700;
+
+  &--color {
+    color: $primary-color;
+  }
+
+  &--white {
+    color: $white;
+  }
+
+  &--upper {
+    text-transform: uppercase;
+  }
+
+  &--center {
+    text-align: center;
+  }
+}

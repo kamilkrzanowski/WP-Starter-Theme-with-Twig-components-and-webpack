@@ -1,0 +1,36 @@
+{
+  "name": "webpack-sass",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "~0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "*",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "stylelint": "~8.4.0",
+    "stylelint-selector-bem-pattern": "*",
+    "stylelint-order": "*",
+    "stylelint-config-recommended": "^1.0.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

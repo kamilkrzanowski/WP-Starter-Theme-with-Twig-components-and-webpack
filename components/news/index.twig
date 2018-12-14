@@ -1,0 +1,9 @@
+<section class="news">
+  <div class="news__container container">
+    <h2 class="news__top-heading t-heading">{{ heading }}</h2>
+    {% for post in posts %}
+      <h3 class="news__heading t-heading">{{ post.title }}</h3>
+      <p class="news__paragraph t-paragraph">{{ post.excerpt }}</p>
+    {% endfor %}
+  </div>
+</section>

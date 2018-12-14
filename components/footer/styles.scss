@@ -1,0 +1,8 @@
+.footer {
+  background-color: $black;
+  padding: 40px 0;
+
+  @include media($medium) {
+    padding: 60px 0;
+  }
+}

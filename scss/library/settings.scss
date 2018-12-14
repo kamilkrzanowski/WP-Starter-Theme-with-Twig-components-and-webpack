@@ -1,0 +1,25 @@
+// Neat Breakpoints
+$x-small-screen: 560px;
+$small-screen: 768px;
+$medium-screen: 992px;
+$large-screen: 1170px;
+$largest-screen: 1340px;
+
+$x-small: $x-small-screen;
+$small: $small-screen;
+$medium: $medium-screen;
+$large: $large-screen;
+$largest: $largest-screen;
+
+// Typography
+$base-font: 'Arial', sans-serif;
+$heading-font: 'Times New Roman', sans-serif;
+
+$gutter-width: 30px;
+
+// Colors;
+$black: #000;
+$white: #fff;
+$blue: rgb(25, 86, 216);
+
+$primary-color: $blue;

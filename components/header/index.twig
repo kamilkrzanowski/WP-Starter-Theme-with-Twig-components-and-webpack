@@ -1,0 +1,37 @@
+<header class="header">
+	<div class="header__container container">
+		<nav class="header__navbar">
+    {{ function('show_custom_logo') }}
+		<ul class="header__navbar-menu" data-nav-menu>
+			{% for item in menu.items %}
+				<li class="header__navbar-item 	{% if item.children %}header__navbar-item--has-dropdown{% endif %} {{ item.classes|join(' ') }}">
+					<a class="header__navbar-link t-paragraph t-paragraph--upper" href="{{ item.link }}">{{ item.title }}
+						{% if item.children %}
+						{# Place svg or small image with chevron down here #}
+						{% endif %}
+					</a>
+					{% if item.children %}
+						<div class="header__navbar-dropdown">
+						{% for child in item.children %}
+								<a class="header__navbar-dropdown-link t-paragraph t-paragraph--upper" href="{{ child.link }}">{{ child.title }}</a>
+							{% endfor %}
+						</div>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+		</nav>
+		<div class="header__right">
+		{# It can be social media links, or another nav... or you can just delete it #}
+			<a href="#" class="header__social-link t-paragraph"  target="_blank" rel="noopener">
+				Facebook
+			</a>
+			<a href="#" class="header__social-link t-paragraph"  target="_blank" rel"”noopener">
+				Instagram
+			</a>
+			<button class="header__hamburger-toggle" data-nav-hamburger>
+				MENU
+			</button>
+		</div>
+	</div>
+</header>
