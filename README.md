@@ -6,7 +6,7 @@ Also, Jquery, Slickslider and font-awesome is in dependencies by default. If you
 It requires your WordPress to have `Timber` plugin installed !!! 
 
 Besides that, you can use jQuery in your JS files just by importing it at the begining of the file with: 
-``` import '$' from jquery ```
+``` import $ from 'jquery' ```
 
 
 First, install all packages by entering:
